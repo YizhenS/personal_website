@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './img/158667.gif';
+import homepageGif from './img/ezgif-3-536dab28c804.gif';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="homepage-img" alt="Under construnction" />
-        
+        <img src={homepageGif} className="homepage-img" alt="Under construnction" width="60%"/>
+        <p style={{ fontSize: '50%' }}>@YizhenS</p>
       </header>
     </div>
   );
